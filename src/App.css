@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+header, footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}

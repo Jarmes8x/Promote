@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav ul li {
+  display: inline;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav ul li a .svg-inline--fa {
+  margin-right: 8px; /* เพิ่มระยะห่างระหว่างไอคอนและข้อความ */
+}
+
+.nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.login-button, .register-button {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.login-button .svg-inline--fa, .register-button .svg-inline--fa {
+  margin-right: 8px; /* เพิ่มระยะห่างระหว่างไอคอนและข้อความ */
+}
+
+.login-button:hover, .register-button:hover {
+  text-decoration: underline;
+}
